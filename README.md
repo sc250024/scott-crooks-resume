@@ -3,7 +3,9 @@ Résumé / CV for Scott Crooks - All forms! Wooo!
 
 # Infographic
 Created an infographic based résumé based on hours scouring the Internet, finding certain sections that I liked. Much of the inspiration came from these sites:
+
 http://www.hongkiat.com/blog/creative-designer-resume-curriculum-vitae/
+
 http://www.hongkiat.com/blog/beautiful-resume-design/
 
 # Long Form
