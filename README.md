@@ -10,3 +10,6 @@ http://www.hongkiat.com/blog/beautiful-resume-design/
 
 # Long Form
 Template forked from my buddy Scott Clark's template (https://github.com/sc932/resume)
+
+# Short Form
+Template forked from Adrien Friggeri's LaTeX resume template (https://github.com/afriggeri/CV)
