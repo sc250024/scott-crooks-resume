@@ -1,92 +1,284 @@
-%!TEX TS-program = xelatex
-\documentclass[]{friggeri-cv}
-\usepackage{CJKutf8}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy CV/Resume
+% XeLaTeX Template
+% Version 1.0 (5/5/2014)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Debarghya Das (http://www.debarghyadas.com)
+% With extensive modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\documentclass[a4paper]{deedy-resume-proximanova-sanfran} % Use US Letter paper, change to a4paper for A4 
+\usepackage{url}
 \begin{document}
-\header{scott}{crooks}
-       {engineer and project manager}
 
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
 
-% In the aside, each new line forces a line break
-\begin{aside}
-  \section{address}
-    4th Floor, No. 26
-    Alley 27, Lane 55
-    Section 1, Xinglong Road
-    Wenshan District
-    Taipei City, Taiwan 116
-  \section{mobile}
-    +886 978 788 646
-  \section{links}
-    \href{mailto:scott.crooks@gmail.com}{scott.crooks@gmail.com}
-    \href{http://linkedin.com/in/jshcrooks}{linkedin://jshcrooks}
-    \href{http://facebook.com/scott.crooks}{facebook://scott.crooks}
-    \href{http://github.com/sc250024}{github://sc250024}
-  \section{languages}
-    English (native)
-    Mandarin Chinese (working proficiency)
-  \section{programming}
-    {\color{red} $\varheartsuit$} BASH / Shell
-    Python, PHP
-    SQL \& \LaTeX
-\end{aside}
+\lastupdated % Print the Last Updated text at the top right
 
-\section{interests}
+\namesection{Scott}{Crooks}{ % Your name
+\urlstyle{same}\url{https://www.linkedin.com/in/jshcrooks} \\ % Your website, LinkedIn profile or other web address
+\href{mailto:scott.crooks@gmail.com}{scott.crooks@gmail.com} | +886 978 788 646 % Your contact information
+}
 
-entrepreneurship, chinese language and culture, coding / hacking events, public speaking, typography, graphic design, theoretical physics
+%----------------------------------------------------------------------------------------
+%	LEFT COLUMN
+%----------------------------------------------------------------------------------------
 
-\section{education}
+\begin{minipage}[t]{0.33\textwidth} % The left column takes up 33% of the text width of the page
 
-\begin{entrylist}
-  \entry
-    {2014-2015}
-    {International Chinese Language Program}
-    {National Taiwan University}
-    {\emph{Nine months of intensive Mandarin Chinese studies.}}
-  \entry
-    {2004–2009}
-    {B.Sc. Cum laude}
-    {Oregon State University}
-    {Majoring in Chemical Engineering\\
-    \emph{Specialization in Material Sciences and Engineering}}
-\end{entrylist}
+%------------------------------------------------
+% Education
+%------------------------------------------------
 
-\section{work experience}
+\section{Education} 
 
-\begin{entrylist}
+\subsection[National Taiwan University]{National Taiwan\\University}
 
-  \entry
-    {2011-2014}
-    {MCON China Ltd. // Beijing, China}
-    {Engineering Team Leader / Senior Systems Engineer}
-    {\emph{- Consulting for German automotive companies in Beijing in the areas of system architecture, project management, and code deployment.\\
-    - Managed a team of 5 engineers, supervising daily engineering duties, as well as ensuring proper training for members of the team.\\
-    - Learned our company’s infrastructure in Germany, China, India, and South Korea, within the period of 12 months; afterwards was able to manage tasks in our Beijing datacenter.\\
-    - Created training courses, created screencasts and technical manuals for our teams in China and Germany.}}
+\descript{International Chinese\\Language Program}
+\location{Jun 2015 | Taipei, Taiwan}
+Nine months of intensive \\
+Mandarin Chinese training \\
 
-  \entry
-    {2011-2011}
-    {ChinaSoft DK // Beijing, China}
-    {Project Leader}
-    {\emph{Managed 4 web development projects during my tenure for 3 different clients in Denmark in the newsprint media, healthcare, and a consumer-to-consumer (C2C) industries.\\
-    - Quality testing on developed code based on customer requirements.\\
-    - Quickly gained knowledge of the Drupal content management system, coded modules to enhance learning of the Drupal system.}}
+\sectionspace % Some whitespace after the section
 
-\end{entrylist}
+\subsection[Oregon State University]{Oregon State\\University}
 
-\section{special skills}
+\descript{B.Sc. in Chemical Engineering}
+\location{Sep 2004-Jun 2009 | Corvallis, OR}
+Speciality in Materials Science \\
+Dean's List (9 of 12 terms) \\
+\location{ Cum. GPA: 3.57 / 4.0}
 
-\begin{itemize}
-\item
-Great at writing technical documents and standards, as well as creating screencasts for more technically challenging topics.
-\item
-Advanced knowledge in server and network infrastructure monitoring using latest open-source solutions.
-\item
-Capable of learning complex systems quickly as a result of my chemical engineering background.
-\item
-Skilled at engineering deployment solutions for code developers using Git and Jenkins, specifically for Java-based Maven builds.
-\item
-Firm understanding of the business culture in China, and able to assist a company’s entry into the Chinese market.
-\end{itemize}
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+
+\subsection[Central Catholic High School]{Central Catholic\\High School}
+
+\location{Jun 2004 | Portland, OR}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Links
+%------------------------------------------------
+
+\section{Links} 
+
+Github:// \href{https://github.com/sc250024}{\bf sc250024} \\
+LinkedIn:// \href{https://www.linkedin.com/in/jshcrooks}{\bf jshcrooks} \\
+YouTube:// \href{https://www.youtube.com/user/scottcrooks314}{\bf scottcrooks314} \\
+Twitter:// \href{https://twitter.com/jshcrooks}{\bf @jshcrooks} \\
+Google+:// \href{https://www.google.com/+ScottCrooks}{\bf +ScottCrooks}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Skills
+%------------------------------------------------
+
+\section{Skills}
+
+\subsection{Programming / Coding}
+
+BASH / Shell \textbullet{} Python \textbullet{} PHP \textbullet{} SQL \\
+Apache Ant \textbullet{} Git \textbullet{} SVN \textbullet{} Maven \\
+HTML5 \textbullet{} CSS3
+
+\sectionspace % Some whitespace after the section
+
+\subsection{Server}
+Linux (All Distros) \textbullet{} Apache \textbullet{} NGinx \\
+MySQL \textbullet{} MongoDB \textbullet{} Tomcat \textbullet{} JBoss \\
+Puppet \textbullet{} Nagios \textbullet{} Check\_MK \\ 
+Centreon \\
+
+\sectionspace % Some whitespace after the section
+
+\subsection{Creative}
+Adobe InDesign \textbullet{} Adobe Illustrator \\
+Adobe Photoshop \textbullet{} Apple Keynote \\ 
+Prezi \textbullet{} Tumult Hype
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Interests
+%------------------------------------------------
+
+\section{Interests}
+Entrepreneurship \textbullet{} Hiking \\
+Start-Up / Hacking Events \textbullet{} Fitness \\
+Theoretical Physics \textbullet{} Boxing \\
+Graphic Design \textbullet{} Typography \\
+
+%----------------------------------------------------------------------------------------
+
+\end{minipage} % The end of the left column
+\hfill
+%
+%----------------------------------------------------------------------------------------
+%	RIGHT COLUMN
+%----------------------------------------------------------------------------------------
+%
+\begin{minipage}[t]{0.66\textwidth} % The right column takes up 66% of the text width of the page
+
+%------------------------------------------------
+% Experience
+%------------------------------------------------
+
+\section{Work Experience}
+
+\runsubsection{MCON China, Ltd.}
+\descript{| Senior Systems Engineer / Engineering Team Leader}
+
+\location{Aug 2011 – Aug 2014 | Beijing, China}
+\emph{A German IT consulting and infrastructure company focusing on hosting and infrastructure services for the automotive industry.}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightitemize}
+\item Managed a multi-national team of 5 engineers to perform daily maintenance tasks of infrastructure, support our business and development team of $\mathtt{\sim}$150 individuals for their daily IT needs, and perform consulting duties for automotive customers around Beijing.
+\item Led training courses, created screencasts and technical manuals, and provided technical support for our internal server documentation software to our teams in China and Germany. This documentation made is much easier and clearer for our engineering team to keep track and document our internal infrastructure.
+\item Advocated for and initiated the process of standardization of naming and partitioning our server and network infrastructure, and documented those standards once agreed upon by the team and management. As a result, communication between MCON's engineers about standardization became much more streamlined.
+\item As part of the consultant team at MCON, regularly prepared project tenders and charters, request for proposals (RFP), as well as managed purchase requests (PR) and purchase orders (PO) in collaboration with our automotive clients.
+\item As manager of MCON's internal IT support team, regularly 
+\end{tightitemize}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+
+% \runsubsection{Google}
+% \descript{| Software Engineering Intern}
+
+% \location{May 2013 – Aug 2013 | Mountain View, CA}
+% \begin{tightitemize}
+% \item Worked on the YouTube Captions team in primarily vanilla Javascript and Python to plan, design and develop the full stack implementation of a new framework to add and edit Automatic Speech Recognition captions.
+% \item Created a backbone.js-like framework for the Captions editor.
+% \item All code was reviewed, perfected, and pushed to production.
+% \end{tightitemize}
+
+% \sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+
+% \runsubsection{Phabricator}
+% \descript{| Open Source Contributor \& Team Leader}
+
+% \location{Jan 2013 – May 2013 | Palo Alto, CA \& Ithaca, NY}
+% \begin{tightitemize}
+% \item Phabricator is used daily by Facebook, Dropbox, Quora, Asana and more.
+% \item I created the Meme generator, the entire Lipsum application, ported Tokens to different apps, fixed many bugs and more in PHP and Shell.
+% \item Led a team from MIT, Cornell, IC London and UHelsinki for the project.
+% \end{tightitemize}
+
+% \sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Projects
+%------------------------------------------------
+
+\section{Project Experience}
+
+\runsubsection{Volkswagen Group China}
+\descript{| NADIN Migration Project}
+\location{Jun 2014 – August 2014 | Beijing, China}
+\emph{Performed dual roles as Project Manager and System Architecture Consultant to migrate of one of Volkswagen Group China's core servers used for the ordering of new cars to dealerships.}
+\begin{tightitemize}
+\item Collaborated with Volkswagen Global (VWG) NADIN support team to ensure that the NADIN upgrade and rollout of the new NADIN server would be performed with minimal downtime, minimal risk, as well as ensured a rollback solution would be in place in case the upgrade failed.
+\item Worked with a member of the VGIC IT Support Team to guide the project along, ensuring deliverables at each stage, and preparing next phases of the project.
+\end{tightitemize}
+
+\sectionspace % Some whitespace after the section
+
+\runsubsection{BMW China}
+\descript{| ConnectedDrive Dashboard App Deployment}
+\location{Apr 2014 – August 2014 | Shanghai, China}
+\emph{BMW ConnectiveDrive Labs in Shanghai quickly needed server hosting and a Maven deployment solution for their ConnectedDrive dashboard application APIs. The senior deployment engineer and I developed a solution to fit BMW's needs, and afterward, MCON continued to support BMW for new rollouts as well as technical issues.}
+\begin{tightitemize}
+\item Collected and analyzed the business and technical requirements from BMW's side, and developed a solution that fit BMW's needs as well as fit MCON's standards for code deployments.
+\item Created the statement of work (SOW) between BMW China and MCON China since the project's first phase was completed very quickly and had not yet been defined.
+\end{tightitemize}
+
+%------------------------------------------------
+
+% \runsubsection{Cornell Phonetics Lab}
+% \descript{| Head Undergraduate Researcher}
+
+% \location{Mar 2012 – May 2013 | Ithaca, NY}
+% Lead the development of \textbf{QuickTongue}, the first ever breakthrough tongue-controlled game with \textbf{\href{http://conf.ling.cornell.edu/~tilsen/}{Prof Sam Tilsen}} to aid in Linguistics research. Publication submitted.
+
+% \sectionspace % Some whitespace after the section
+
+% %------------------------------------------------
+% % Awards
+% %------------------------------------------------
+
+% \section{Awards} 
+
+% \begin{tabular}{rll}
+% 2014	 & top 52/2500 & KPCB Engineering Fellow\\
+% 2014	 & 2\textsuperscript{nd} most points & Google Code Jam, Qualification Round\\
+% 2014	 & 1\textsuperscript{st}/50 & Microsoft Coding Competition, Cornell\\
+% 2013	 & National & Jump Trading Challenge Finalist\\
+% 2013 & 7\textsuperscript{th}/120 & CS 3410 Cache Race Bot Tournament \\
+% 2012 & 2\textsuperscript{nd}/150 & CS 3110 Biannual Intra-Class Bot Tournament \\
+% 2011 & National & Indian National Mathematics Olympiad (INMO) Finalist \\
+% 2010 & National & Comp. Soc. of India's National Programming Contest\\
+% \end{tabular}
+
+% \sectionspace % Some whitespace after the section
+
+% %------------------------------------------------
+% % Societies
+% %------------------------------------------------
+
+% \section{Societies} 
+
+% \begin{tabular}{rll}
+% 2014 & top 12\%ile & Tau Beta Pi Engineering Honor Society\\
+% 2014 & National & The Global Leadership and Education Forum (tGELF)\\
+% 2012 & National & Golden Key International Honor Society\\
+% 2012 & National & National Society of Collegiate Scholars\\
+% \end{tabular}
+
+% \sectionspace % Some whitespace after the section
+
+%----------------------------------------------------------------------------------------
+
+\end{minipage} % The end of the right column
+
+%----------------------------------------------------------------------------------------
+%	SECOND PAGE (EXAMPLE)
+%----------------------------------------------------------------------------------------
+
+%\newpage % Start a new page
+
+%\begin{minipage}[t]{0.33\textwidth} % The left column takes up 33% of the text width of the page
+
+%\section{Example Section}
+
+%\end{minipage} % The end of the left column
+%\hfill
+%\begin{minipage}[t]{0.66\textwidth} % The right column takes up 66% of the text width of the page
+
+%\section{Example Section 2}
+
+%\end{minipage} % The end of the right column
+
+%----------------------------------------------------------------------------------------
 
 \end{document}

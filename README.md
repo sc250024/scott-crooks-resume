@@ -12,4 +12,5 @@ http://www.hongkiat.com/blog/beautiful-resume-design/
 Template forked from my buddy Scott Clark's template (https://github.com/sc932/resume)
 
 # Short Form
-Template forked from Adrien Friggeri's LaTeX resume template (https://github.com/afriggeri/CV)
+Templated forked from LaTeX Templates site based on Debarghya Das' template (http://www.latextemplates.com/template/deedy-resume-cv)
+Alternate template forked from Adrien Friggeri's LaTeX resume template (https://github.com/afriggeri/CV)
