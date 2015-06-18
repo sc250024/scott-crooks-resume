@@ -13,4 +13,5 @@ Template forked from my buddy Scott Clark's template (https://github.com/sc932/r
 
 # Short Form
 Templated forked from LaTeX Templates site based on Debarghya Das' template (http://www.latextemplates.com/template/deedy-resume-cv)
+
 Alternate template forked from Adrien Friggeri's LaTeX resume template (https://github.com/afriggeri/CV)
