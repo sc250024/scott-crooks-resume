@@ -30,7 +30,7 @@
 
 \setmainfont[Color=primary, Path = fonts/proximanova/,BoldItalicFont=ProximaNova-BoldIt,BoldFont=ProximaNova-Bold,ItalicFont=ProximaNova-RegularItalic]{ProximaNova-Regular} % The primary font for content text; defines bold, italic and bold-italic as well
 
-\setsansfont[Scale=MatchLowercase,Mapping=tex-text, Path = fonts/sanfran/]{sanfranultralt} % The font used where \sfffamily is called
+\setsansfont[Scale=MatchLowercase,Mapping=tex-text, Path = fonts/sanfran/]{SFCompactDisplay-Ultralight} % The font used where \sfffamily is called
 
 %----------------------------------------------------------------------------------------
 %	LAST UPDATED COMMAND
@@ -43,7 +43,7 @@
 \setlength{\TPVertModule}{0.01\paperwidth} % Sets the units for the vertical position used in the \begin{textblock} argument
 \newcommand{\lastupdated}{ % Create a new command for printing the Last Updated text
 \begin{textblock}{25}(75,2) % The position of the Last Updated text on the page (75% of the page across, 2% down)
-\color{date}\fontspec[Path = fonts/sanfran/]{sanfranultralt}\fontsize{8pt}{10pt}\selectfont % Text styling of the text
+\color{date}\fontspec[Path = fonts/sanfran/]{SFCompactDisplay-Ultralight}\fontsize{8pt}{10pt}\selectfont % Text styling of the text
 Last Updated on \today % Last Updated text
 \end{textblock}}
 
@@ -59,7 +59,7 @@ Last Updated on \today % Last Updated text
 } \\[5pt] % Whitespace between the name and contact information
 \centering{ % Center the contact information
 \color{headings} % Use the headings color
-\fontspec[Path = fonts/sanfran/]{sanfranregular}\fontsize{11pt}{14pt}\selectfont #3} % Contact information font
+\fontspec[Path = fonts/sanfran/]{SFCompactDisplay-Light}\fontsize{11pt}{14pt}\selectfont #3} % Contact information font
 \noindent\makebox[\linewidth]{\color{headings}\rule{\paperwidth}{0.4pt}} % Horizontal rule
 \vspace{-5pt} % Reduce whitespace after the rule slightly
 }
@@ -84,10 +84,10 @@ Last Updated on \today % Last Updated text
 \color{subheadings}\fontspec[Path = fonts/proximanova/]{ProximaNova-Bold}\fontsize{12pt}{12pt}\selectfont\bfseries\uppercase {#1} \normalfont}
 
 \newcommand{\descript}[1]{ % Used for describing the subsection either on the same line or underneath
-\color{subheadings}\raggedright\scshape\fontspec[Path = fonts/sanfran/]{sanfranregular}\fontsize{11pt}{13pt}\selectfont {#1 \\} \normalfont}
+\color{subheadings}\raggedright\scshape\fontspec[Path = fonts/sanfran/]{SFCompactDisplay-Light}\fontsize{11pt}{13pt}\selectfont {#1 \\} \normalfont}
 
 \newcommand{\location}[1]{ % Used for specifying a duration and/or location under a subsection
-\color{headings}\raggedright\fontspec[Path = fonts/sanfran/]{sanfranregular}\fontsize{10pt}{12pt}\selectfont {#1\\} \normalfont}
+\color{headings}\raggedright\fontspec[Path = fonts/sanfran/]{SFCompactDisplay-Light}\fontsize{10pt}{12pt}\selectfont {#1\\} \normalfont}
 
 %----------------------------------------------------------------------------------------
 %	SECTION TITLE STYLING AND SPACING
